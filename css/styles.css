@@ -1,13 +1,57 @@
+body
+{
+  padding: 50px 0 0 0;
+  margin-bottom: 0;
+}
+
 .navbar
 {
-  background-color: #fff;
-  border-bottom: 1px solid #fff;
+  background-color: #231f20;
+  border: none;
+  margin-bottom: 0;
+  min-height: 50px;
+}
+
+.navbar-toggle
+{
+  border: 2px solid #f37979;
+  font-weight: bold;
+  color: #f37979;
+  font-size: 15px;
+
+}
+
+.navbar-toggle:hover
+{
+  background-color: #ffffff;
+
+}
+
+.navbar button
+{
+  margin: 3px 25px;
+  padding: 10px;
+}
+
+.navbar a
+{
+  text-decoration: none;
+  color: #f37979;
+}
+
+.navbar ul
+{
+  margin: 0;
+}
+
+.navbar .container
+{
+  padding: 0;
 }
 
 .navbar img
 {
-  display: block;
-
+  padding-left: 25px;
 }
 
 .jumbotron
@@ -15,12 +59,68 @@
   background-image: url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  width: 100%;
+  height: 20em;
+  margin-bottom: 0;
+  padding-top: 30px;
+
 }
 
-.jumbotron h2
+.jumbotron p
 {
   color:#fff;
-  text-align: top center;
-  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row-margin
+{
+  margin-bottom: 20px;
+}
+
+.dog-bowl, .cat-toy, .parrot-stuff
+{
+  display: block;
+  background-color: #edf1f4;
+  min-height: 50px;
+  border: 3px solid #fcfcfc;
+  border-radius: 10px;
+
+}
+
+.product-info
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.dog-bowl img, .cat-toy img, .parrot-stuff img
+{
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.serv
+{
+  text-align: center;
+}
+
+footer
+{
+  background-color: #231f20;
+  height: 125px;
+  position:relative;
+	left:0px;
+	bottom:0px;
+  padding-left: 10%;
+  padding-top: 2%;
+  color: #FFFFFF;
+}
+
+.col-sm-4 .foot
+{
+  border-right: 1px solid #333;
 }
